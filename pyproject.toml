@@ -1,0 +1,30 @@
+[project]
+name = "consulta-lft"
+version = "0.1.0"
+description = "RAG assistant over Mexico's Federal Labor Law, with verified citations and a measured evaluation"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.162.2",
+    "openai>=3.46.0",
+    "pgvector>=0.5.1",
+    "psycopg[binary]>=3.3.8",
+    "pypdf>=7.0.0",
+    "uvicorn>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+
+[tool.uv]
+package = false
