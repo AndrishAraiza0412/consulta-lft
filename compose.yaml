@@ -15,5 +15,24 @@ services:
       timeout: 3s
       retries: 20
 
+  api:
+    build: .
+    environment:
+      DATABASE_URL: postgresql://lft:lft@db:5432/lft
+      # Ollama runs on the host: inside Docker on a Mac it would have no GPU.
+      LLM_BASE_URL: http://host.docker.internal:11434/v1
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    build: ./web
+    ports:
+      - "127.0.0.1:8080:80"
+    depends_on:
+      - api
+
 volumes:
   db-data:

@@ -1,0 +1,12 @@
+.git
+.venv
+.omc
+.superpowers
+.env
+docs
+evals
+tests
+web
+**/__pycache__
+**/node_modules
+**/dist
