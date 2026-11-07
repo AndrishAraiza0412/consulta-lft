@@ -6,7 +6,7 @@
 
 **Architecture:** La ingesta divide el PDF por artículo y guarda embeddings en Postgres con pgvector. `POST /ask` busca, genera con Qwen, valida las citas contra los artículos que realmente estaban en el contexto y guarda una traza. `evals/run.py` ejecuta casos separados en `dev` y `test` contra la API real.
 
-**Tech Stack:** Python 3.12 con uv, FastAPI, psycopg 3, pgvector, cliente `openai` contra Ollama, pypdf, pytest, ruff, React, TypeScript, Vite, Vitest, Docker Compose, GitHub Actions.
+**Tech Stack:** Python 3.12 con uv, FastAPI, psycopg 3, pgvector, cliente `openai` contra Ollama, pdfplumber, pytest, ruff, React, TypeScript, Vite, Vitest, Docker Compose, GitHub Actions.
 
 **Spec:** `docs/superpowers/specs/2026-11-07-consulta-lft-design.md`
 

@@ -17,7 +17,7 @@ class Settings:
     llm_api_key: str = field(default_factory=lambda: _env("LLM_API_KEY", "ollama"))
     chat_model: str = field(default_factory=lambda: _env("CHAT_MODEL", "qwen2.5:3b-instruct"))
     embed_model: str = field(default_factory=lambda: _env("EMBED_MODEL", "bge-m3"))
-    source_version: str = field(default_factory=lambda: _env("SOURCE_VERSION", "unset"))
+    source_version: str = field(default_factory=lambda: _env("SOURCE_VERSION", "DOF-2026-05-14"))
     top_k: int = field(default_factory=lambda: int(_env("TOP_K", "5")))
     min_similarity: float = field(default_factory=lambda: float(_env("MIN_SIMILARITY", "0.5")))
     max_output_tokens: int = field(default_factory=lambda: int(_env("MAX_OUTPUT_TOKENS", "500")))

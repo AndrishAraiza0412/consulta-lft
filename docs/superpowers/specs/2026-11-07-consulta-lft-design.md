@@ -60,7 +60,7 @@ tests/             pytest
 
 ## 5. Ingesta
 
-1. Extraer el texto del PDF con `pypdf`.
+1. Extraer el texto del PDF con `pdfplumber`. `pypdf` partía palabras ("riesg o", "fís ica").
 2. Quitar encabezados y pies de página repetidos.
 3. Cortar el texto por el patrón de inicio de artículo. Se conservan los sufijos como identificador de texto, por ejemplo `153-A` o `311 Bis`.
 4. Excluir los artículos transitorios, porque repiten numeración y no son el contenido que se consulta.
