@@ -12,6 +12,6 @@ def apply_schema(conn: psycopg.Connection) -> None:
 
 
 def connect(url: str) -> psycopg.Connection:
-    conn = psycopg.connect(url)
+    conn = psycopg.connect(url, connect_timeout=5)
     register_vector(conn)
     return conn
