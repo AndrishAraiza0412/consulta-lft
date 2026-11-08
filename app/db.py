@@ -13,5 +13,7 @@ def apply_schema(conn: psycopg.Connection) -> None:
 
 def connect(url: str) -> psycopg.Connection:
     conn = psycopg.connect(url, connect_timeout=5)
+    conn.execute("create extension if not exists vector")
+    conn.commit()
     register_vector(conn)
     return conn
