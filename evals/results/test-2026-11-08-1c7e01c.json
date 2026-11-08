@@ -1,0 +1,1870 @@
+{
+  "commit": "1c7e01c",
+  "summary": {
+    "accuracy": {
+      "passed": 48,
+      "total": 60
+    },
+    "by_category": {
+      "direct": {
+        "passed": 15,
+        "total": 24
+      },
+      "multi": {
+        "passed": 9,
+        "total": 12
+      },
+      "out_of_scope": {
+        "passed": 15,
+        "total": 15
+      },
+      "attack": {
+        "passed": 9,
+        "total": 9
+      }
+    },
+    "citations_correct": {
+      "passed": 24,
+      "total": 24
+    },
+    "correct_no_answer": {
+      "passed": 15,
+      "total": 15
+    },
+    "undue_no_answer": {
+      "passed": 12,
+      "total": 36
+    },
+    "retrieval_hit": {
+      "passed": 11,
+      "total": 12
+    },
+    "latency_ms": {
+      "median": 1028.0,
+      "p95": 4128.45
+    }
+  },
+  "rows": [
+    {
+      "case_id": "test-direct-vacaciones",
+      "category": "direct",
+      "expected_articles": [
+        "76"
+      ],
+      "run": 1,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "76"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "199",
+        "76",
+        "78",
+        "179",
+        "77"
+      ],
+      "similarity": [
+        0.693,
+        0.685,
+        0.651,
+        0.626,
+        0.626
+      ],
+      "raw_answer": "[Art. 76] Las personas trabajadoras que tengan más de un año de servicios disfrutarán de un periodo anual de vacaciones pagadas, que en ningún caso podrá ser inferior a doce días laborables, y que aumentará en dos días laborables, hasta llegar a veinte, por cada año subsecuente de servicios.",
+      "latency_ms": 3707
+    },
+    {
+      "case_id": "test-direct-vacaciones",
+      "category": "direct",
+      "expected_articles": [
+        "76"
+      ],
+      "run": 2,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "76"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "199",
+        "76",
+        "78",
+        "179",
+        "77"
+      ],
+      "similarity": [
+        0.693,
+        0.685,
+        0.651,
+        0.626,
+        0.626
+      ],
+      "raw_answer": "[Art. 76] Las personas trabajadoras que tengan más de un año de servicios disfrutarán de un periodo anual de vacaciones pagadas, que en ningún caso podrá ser inferior a doce días laborables, y que aumentará en dos días laborables, hasta llegar a veinte, por cada año subsecuente de servicios.",
+      "latency_ms": 2080
+    },
+    {
+      "case_id": "test-direct-vacaciones",
+      "category": "direct",
+      "expected_articles": [
+        "76"
+      ],
+      "run": 3,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "76"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "199",
+        "76",
+        "78",
+        "179",
+        "77"
+      ],
+      "similarity": [
+        0.693,
+        0.685,
+        0.651,
+        0.626,
+        0.626
+      ],
+      "raw_answer": "[Art. 76] Las personas trabajadoras que tengan más de un año de servicios disfrutarán de un periodo anual de vacaciones pagadas, que en ningún caso podrá ser inferior a doce días laborables, y que aumentará en dos días laborables, hasta llegar a veinte, por cada año subsecuente de servicios.",
+      "latency_ms": 2144
+    },
+    {
+      "case_id": "test-direct-descanso-semanal",
+      "category": "direct",
+      "expected_articles": [
+        "69"
+      ],
+      "run": 1,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "69"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "69",
+        "272",
+        "258",
+        "199",
+        "78"
+      ],
+      "similarity": [
+        0.773,
+        0.676,
+        0.659,
+        0.653,
+        0.645
+      ],
+      "raw_answer": "[Art. 69] Por cada seis días de trabajo se deberá otorgar, por lo menos, un día de descanso con goce de salario íntegro.",
+      "latency_ms": 2470
+    },
+    {
+      "case_id": "test-direct-descanso-semanal",
+      "category": "direct",
+      "expected_articles": [
+        "69"
+      ],
+      "run": 2,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "69"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "69",
+        "272",
+        "258",
+        "199",
+        "78"
+      ],
+      "similarity": [
+        0.773,
+        0.676,
+        0.659,
+        0.653,
+        0.645
+      ],
+      "raw_answer": "[Art. 69] Por cada seis días de trabajo se deberá otorgar, por lo menos, un día de descanso con goce de salario íntegro.",
+      "latency_ms": 1139
+    },
+    {
+      "case_id": "test-direct-descanso-semanal",
+      "category": "direct",
+      "expected_articles": [
+        "69"
+      ],
+      "run": 3,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "69"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "69",
+        "272",
+        "258",
+        "199",
+        "78"
+      ],
+      "similarity": [
+        0.773,
+        0.676,
+        0.659,
+        0.653,
+        0.645
+      ],
+      "raw_answer": "[Art. 69] Por cada seis días de trabajo se deberá otorgar, por lo menos, un día de descanso con goce de salario íntegro.",
+      "latency_ms": 1100
+    },
+    {
+      "case_id": "test-direct-plazo-salario",
+      "category": "direct",
+      "expected_articles": [
+        "88"
+      ],
+      "run": 1,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "88"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "88",
+        "83",
+        "109",
+        "82",
+        "1004"
+      ],
+      "similarity": [
+        0.664,
+        0.596,
+        0.579,
+        0.579,
+        0.577
+      ],
+      "raw_answer": "[Art. 88] Los plazos para el pago del salario nunca podrán ser mayores de una semana para las personas que desempeñan un trabajo material.",
+      "latency_ms": 3477
+    },
+    {
+      "case_id": "test-direct-plazo-salario",
+      "category": "direct",
+      "expected_articles": [
+        "88"
+      ],
+      "run": 2,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "88"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "88",
+        "83",
+        "109",
+        "82",
+        "1004"
+      ],
+      "similarity": [
+        0.664,
+        0.596,
+        0.579,
+        0.579,
+        0.577
+      ],
+      "raw_answer": "[Art. 88] Los plazos para el pago del salario nunca podrán ser mayores de una semana para las personas que desempeñan un trabajo material.",
+      "latency_ms": 1126
+    },
+    {
+      "case_id": "test-direct-plazo-salario",
+      "category": "direct",
+      "expected_articles": [
+        "88"
+      ],
+      "run": 3,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "88"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "88",
+        "83",
+        "109",
+        "82",
+        "1004"
+      ],
+      "similarity": [
+        0.664,
+        0.596,
+        0.579,
+        0.579,
+        0.577
+      ],
+      "raw_answer": "[Art. 88] Los plazos para el pago del salario nunca podrán ser mayores de una semana para las personas que desempeñan un trabajo material.",
+      "latency_ms": 1074
+    },
+    {
+      "case_id": "test-direct-edad",
+      "category": "direct",
+      "expected_articles": [
+        "22"
+      ],
+      "run": 1,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "22"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "22",
+        "174",
+        "40",
+        "29",
+        "362"
+      ],
+      "similarity": [
+        0.667,
+        0.602,
+        0.567,
+        0.566,
+        0.559
+      ],
+      "raw_answer": "[Art. 22] Los mayores de quince años pueden prestar libremente sus servicios con las limitaciones establecidas en esta Ley.",
+      "latency_ms": 1942
+    },
+    {
+      "case_id": "test-direct-edad",
+      "category": "direct",
+      "expected_articles": [
+        "22"
+      ],
+      "run": 2,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "22"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "22",
+        "174",
+        "40",
+        "29",
+        "362"
+      ],
+      "similarity": [
+        0.667,
+        0.602,
+        0.567,
+        0.566,
+        0.559
+      ],
+      "raw_answer": "[Art. 22] Los mayores de quince años pueden prestar libremente sus servicios con las limitaciones establecidas en esta Ley.",
+      "latency_ms": 902
+    },
+    {
+      "case_id": "test-direct-edad",
+      "category": "direct",
+      "expected_articles": [
+        "22"
+      ],
+      "run": 3,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "22"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "22",
+        "174",
+        "40",
+        "29",
+        "362"
+      ],
+      "similarity": [
+        0.667,
+        0.602,
+        0.567,
+        0.566,
+        0.559
+      ],
+      "raw_answer": "[Art. 22] Los mayores de quince años pueden prestar libremente sus servicios con las limitaciones establecidas en esta Ley.",
+      "latency_ms": 898
+    },
+    {
+      "case_id": "test-direct-indemnizacion",
+      "category": "direct",
+      "expected_articles": [
+        "48"
+      ],
+      "run": 1,
+      "status": "no_answer",
+      "passed": false,
+      "cited_correctly": null,
+      "reason": "expected answered, status was no_answer",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "48",
+        "485",
+        "502",
+        "684-E",
+        "500"
+      ],
+      "similarity": [
+        0.648,
+        0.634,
+        0.629,
+        0.618,
+        0.616
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 2328
+    },
+    {
+      "case_id": "test-direct-indemnizacion",
+      "category": "direct",
+      "expected_articles": [
+        "48"
+      ],
+      "run": 2,
+      "status": "no_answer",
+      "passed": false,
+      "cited_correctly": null,
+      "reason": "expected answered, status was no_answer",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "48",
+        "485",
+        "502",
+        "684-E",
+        "500"
+      ],
+      "similarity": [
+        0.648,
+        0.634,
+        0.629,
+        0.618,
+        0.616
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 280
+    },
+    {
+      "case_id": "test-direct-indemnizacion",
+      "category": "direct",
+      "expected_articles": [
+        "48"
+      ],
+      "run": 3,
+      "status": "no_answer",
+      "passed": false,
+      "cited_correctly": null,
+      "reason": "expected answered, status was no_answer",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "48",
+        "485",
+        "502",
+        "684-E",
+        "500"
+      ],
+      "similarity": [
+        0.648,
+        0.634,
+        0.629,
+        0.618,
+        0.616
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 258
+    },
+    {
+      "case_id": "test-direct-maternidad",
+      "category": "direct",
+      "expected_articles": [
+        "170"
+      ],
+      "run": 1,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "170"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "170",
+        "170",
+        "336",
+        "69",
+        "76"
+      ],
+      "similarity": [
+        0.707,
+        0.673,
+        0.613,
+        0.586,
+        0.551
+      ],
+      "raw_answer": "[Art. 170] Disfrutarán de un descanso de seis semanas anteriores y seis posteriores al parto.",
+      "latency_ms": 4593
+    },
+    {
+      "case_id": "test-direct-maternidad",
+      "category": "direct",
+      "expected_articles": [
+        "170"
+      ],
+      "run": 2,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "170"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "170",
+        "170",
+        "336",
+        "69",
+        "76"
+      ],
+      "similarity": [
+        0.707,
+        0.673,
+        0.613,
+        0.586,
+        0.551
+      ],
+      "raw_answer": "[Art. 170] Disfrutarán de un descanso de seis semanas anteriores y seis posteriores al parto.",
+      "latency_ms": 1055
+    },
+    {
+      "case_id": "test-direct-maternidad",
+      "category": "direct",
+      "expected_articles": [
+        "170"
+      ],
+      "run": 3,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "170"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "170",
+        "170",
+        "336",
+        "69",
+        "76"
+      ],
+      "similarity": [
+        0.707,
+        0.673,
+        0.613,
+        0.586,
+        0.551
+      ],
+      "raw_answer": "[Art. 170] Disfrutarán de un descanso de seis semanas anteriores y seis posteriores al parto.",
+      "latency_ms": 1001
+    },
+    {
+      "case_id": "test-direct-ptu",
+      "category": "direct",
+      "expected_articles": [
+        "122"
+      ],
+      "run": 1,
+      "status": "no_answer",
+      "passed": false,
+      "cited_correctly": null,
+      "reason": "expected answered, status was no_answer",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "122",
+        "123",
+        "127",
+        "985",
+        "127"
+      ],
+      "similarity": [
+        0.752,
+        0.645,
+        0.642,
+        0.637,
+        0.609
+      ],
+      "raw_answer": "[Art. 122]",
+      "latency_ms": 3925
+    },
+    {
+      "case_id": "test-direct-ptu",
+      "category": "direct",
+      "expected_articles": [
+        "122"
+      ],
+      "run": 2,
+      "status": "no_answer",
+      "passed": false,
+      "cited_correctly": null,
+      "reason": "expected answered, status was no_answer",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "122",
+        "123",
+        "127",
+        "985",
+        "127"
+      ],
+      "similarity": [
+        0.752,
+        0.645,
+        0.642,
+        0.637,
+        0.609
+      ],
+      "raw_answer": "[Art. 122]",
+      "latency_ms": 388
+    },
+    {
+      "case_id": "test-direct-ptu",
+      "category": "direct",
+      "expected_articles": [
+        "122"
+      ],
+      "run": 3,
+      "status": "no_answer",
+      "passed": false,
+      "cited_correctly": null,
+      "reason": "expected answered, status was no_answer",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "122",
+        "123",
+        "127",
+        "985",
+        "127"
+      ],
+      "similarity": [
+        0.752,
+        0.645,
+        0.642,
+        0.637,
+        0.609
+      ],
+      "raw_answer": "[Art. 122]",
+      "latency_ms": 317
+    },
+    {
+      "case_id": "test-direct-extras-semana",
+      "category": "direct",
+      "expected_articles": [
+        "66"
+      ],
+      "run": 1,
+      "status": "no_answer",
+      "passed": false,
+      "cited_correctly": null,
+      "reason": "expected answered, status was no_answer",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "66",
+        "68",
+        "59",
+        "178",
+        "333"
+      ],
+      "similarity": [
+        0.729,
+        0.708,
+        0.66,
+        0.624,
+        0.595
+      ],
+      "raw_answer": "[Art. 66]",
+      "latency_ms": 2217
+    },
+    {
+      "case_id": "test-direct-extras-semana",
+      "category": "direct",
+      "expected_articles": [
+        "66"
+      ],
+      "run": 2,
+      "status": "no_answer",
+      "passed": false,
+      "cited_correctly": null,
+      "reason": "expected answered, status was no_answer",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "66",
+        "68",
+        "59",
+        "178",
+        "333"
+      ],
+      "similarity": [
+        0.729,
+        0.708,
+        0.66,
+        0.624,
+        0.595
+      ],
+      "raw_answer": "[Art. 66]",
+      "latency_ms": 355
+    },
+    {
+      "case_id": "test-direct-extras-semana",
+      "category": "direct",
+      "expected_articles": [
+        "66"
+      ],
+      "run": 3,
+      "status": "no_answer",
+      "passed": false,
+      "cited_correctly": null,
+      "reason": "expected answered, status was no_answer",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "66",
+        "68",
+        "59",
+        "178",
+        "333"
+      ],
+      "similarity": [
+        0.729,
+        0.708,
+        0.66,
+        0.624,
+        0.595
+      ],
+      "raw_answer": "[Art. 66]",
+      "latency_ms": 314
+    },
+    {
+      "case_id": "test-multi-pagos",
+      "category": "multi",
+      "expected_articles": [
+        "87",
+        "122"
+      ],
+      "run": 1,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "87",
+        "122"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "122",
+        "87",
+        "127",
+        "123",
+        "127"
+      ],
+      "similarity": [
+        0.659,
+        0.657,
+        0.61,
+        0.591,
+        0.571
+      ],
+      "raw_answer": "[Art. 87] El aguinaldo se debe pagar antes del día veinte de diciembre, equivalente a quince días de salario, por lo menos. [Art. 122] La participación de utilidades se repartirá dentro de los sesenta días siguientes a la fecha en que deba pagarse el impuesto anual.",
+      "latency_ms": 4708
+    },
+    {
+      "case_id": "test-multi-pagos",
+      "category": "multi",
+      "expected_articles": [
+        "87",
+        "122"
+      ],
+      "run": 2,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "87",
+        "122"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "122",
+        "87",
+        "127",
+        "123",
+        "127"
+      ],
+      "similarity": [
+        0.659,
+        0.657,
+        0.61,
+        0.591,
+        0.571
+      ],
+      "raw_answer": "[Art. 87] El aguinaldo se debe pagar antes del día veinte de diciembre, equivalente a quince días de salario, por lo menos. [Art. 122] La participación de utilidades se repartirá dentro de los sesenta días siguientes a la fecha en que deba pagarse el impuesto anual.",
+      "latency_ms": 2184
+    },
+    {
+      "case_id": "test-multi-pagos",
+      "category": "multi",
+      "expected_articles": [
+        "87",
+        "122"
+      ],
+      "run": 3,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "87",
+        "122"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "122",
+        "87",
+        "127",
+        "123",
+        "127"
+      ],
+      "similarity": [
+        0.659,
+        0.657,
+        0.61,
+        0.591,
+        0.571
+      ],
+      "raw_answer": "[Art. 87] El aguinaldo se debe pagar antes del día veinte de diciembre, equivalente a quince días de salario, por lo menos. [Art. 122] La participación de utilidades se repartirá dentro de los sesenta días siguientes a la fecha en que deba pagarse el impuesto anual.",
+      "latency_ms": 2262
+    },
+    {
+      "case_id": "test-multi-sin-contrato",
+      "category": "multi",
+      "expected_articles": [
+        "21",
+        "26"
+      ],
+      "run": 1,
+      "status": "no_answer",
+      "passed": false,
+      "cited_correctly": null,
+      "reason": "expected answered, status was no_answer",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "21",
+        "420",
+        "39-C",
+        "400",
+        "24"
+      ],
+      "similarity": [
+        0.651,
+        0.606,
+        0.603,
+        0.598,
+        0.593
+      ],
+      "raw_answer": "Art. 21",
+      "latency_ms": 1315
+    },
+    {
+      "case_id": "test-multi-sin-contrato",
+      "category": "multi",
+      "expected_articles": [
+        "21",
+        "26"
+      ],
+      "run": 2,
+      "status": "no_answer",
+      "passed": false,
+      "cited_correctly": null,
+      "reason": "expected answered, status was no_answer",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "21",
+        "420",
+        "39-C",
+        "400",
+        "24"
+      ],
+      "similarity": [
+        0.651,
+        0.606,
+        0.603,
+        0.598,
+        0.593
+      ],
+      "raw_answer": "Art. 21",
+      "latency_ms": 265
+    },
+    {
+      "case_id": "test-multi-sin-contrato",
+      "category": "multi",
+      "expected_articles": [
+        "21",
+        "26"
+      ],
+      "run": 3,
+      "status": "no_answer",
+      "passed": false,
+      "cited_correctly": null,
+      "reason": "expected answered, status was no_answer",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "21",
+        "420",
+        "39-C",
+        "400",
+        "24"
+      ],
+      "similarity": [
+        0.651,
+        0.606,
+        0.603,
+        0.598,
+        0.593
+      ],
+      "raw_answer": "Art. 21",
+      "latency_ms": 232
+    },
+    {
+      "case_id": "test-multi-domingo",
+      "category": "multi",
+      "expected_articles": [
+        "69",
+        "71"
+      ],
+      "run": 1,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "69",
+        "71"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "71",
+        "80",
+        "69",
+        "258",
+        "72"
+      ],
+      "similarity": [
+        0.763,
+        0.636,
+        0.629,
+        0.617,
+        0.604
+      ],
+      "raw_answer": "Art. 69, Por cada seis días de trabajo se deberá otorgar, por lo menos, un día de descanso con goce de salario íntegro. [Art. 71], En los reglamentos de esta Ley se procurará que el día de descanso semanal sea el domingo. Además, las personas que laboren en domingo tendrán derecho a una prima adicional de un veinticinco por ciento, por lo menos, sobre el salario de los días ordinarios de trabajo.",
+      "latency_ms": 4104
+    },
+    {
+      "case_id": "test-multi-domingo",
+      "category": "multi",
+      "expected_articles": [
+        "69",
+        "71"
+      ],
+      "run": 2,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "69",
+        "71"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "71",
+        "80",
+        "69",
+        "258",
+        "72"
+      ],
+      "similarity": [
+        0.763,
+        0.636,
+        0.629,
+        0.617,
+        0.604
+      ],
+      "raw_answer": "Art. 69, Por cada seis días de trabajo se deberá otorgar, por lo menos, un día de descanso con goce de salario íntegro. [Art. 71], En los reglamentos de esta Ley se procurará que el día de descanso semanal sea el domingo. Además, las personas que laboren en domingo tendrán derecho a una prima adicional de un veinticinco por ciento, por lo menos, sobre el salario de los días ordinarios de trabajo.",
+      "latency_ms": 3594
+    },
+    {
+      "case_id": "test-multi-domingo",
+      "category": "multi",
+      "expected_articles": [
+        "69",
+        "71"
+      ],
+      "run": 3,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "69",
+        "71"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "71",
+        "80",
+        "69",
+        "258",
+        "72"
+      ],
+      "similarity": [
+        0.763,
+        0.636,
+        0.629,
+        0.617,
+        0.604
+      ],
+      "raw_answer": "Art. 69, Por cada seis días de trabajo se deberá otorgar, por lo menos, un día de descanso con goce de salario íntegro. [Art. 71], En los reglamentos de esta Ley se procurará que el día de descanso semanal sea el domingo. Además, las personas que laboren en domingo tendrán derecho a una prima adicional de un veinticinco por ciento, por lo menos, sobre el salario de los días ordinarios de trabajo.",
+      "latency_ms": 3180
+    },
+    {
+      "case_id": "test-multi-renuncia",
+      "category": "multi",
+      "expected_articles": [
+        "79",
+        "87"
+      ],
+      "run": 1,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "79",
+        "87"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "87",
+        "79",
+        "76",
+        "77",
+        "199"
+      ],
+      "similarity": [
+        0.693,
+        0.677,
+        0.642,
+        0.628,
+        0.623
+      ],
+      "raw_answer": "Art. 79, Art. 87 [Art. 87] Los trabajadores que no hayan cumplido el año de servicios, independientemente de que se encuentren laborando o no en la fecha de liquidación del aguinaldo, tendrán derecho a que se les pague la parte proporcional del mismo, conforme al tiempo que hubieren trabajado. [Art. 79] Si la relación de trabajo termina antes de que se cumpla el año de servicios, el trabajador tendrá derecho a una remuneración proporcionada al tiempo de servicios prestados.",
+      "latency_ms": 4788
+    },
+    {
+      "case_id": "test-multi-renuncia",
+      "category": "multi",
+      "expected_articles": [
+        "79",
+        "87"
+      ],
+      "run": 2,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "79",
+        "87"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "87",
+        "79",
+        "76",
+        "77",
+        "199"
+      ],
+      "similarity": [
+        0.693,
+        0.677,
+        0.642,
+        0.628,
+        0.623
+      ],
+      "raw_answer": "Art. 79, Art. 87 [Art. 87] Los trabajadores que no hayan cumplido el año de servicios, independientemente de que se encuentren laborando o no en la fecha de liquidación del aguinaldo, tendrán derecho a que se les pague la parte proporcional del mismo, conforme al tiempo que hubieren trabajado. [Art. 79] Si la relación de trabajo termina antes de que se cumpla el año de servicios, el trabajador tendrá derecho a una remuneración proporcionada al tiempo de servicios prestados.",
+      "latency_ms": 3568
+    },
+    {
+      "case_id": "test-multi-renuncia",
+      "category": "multi",
+      "expected_articles": [
+        "79",
+        "87"
+      ],
+      "run": 3,
+      "status": "answered",
+      "passed": true,
+      "cited_correctly": true,
+      "reason": "",
+      "cited": [
+        "79",
+        "87"
+      ],
+      "unverified": [],
+      "retrieved": [
+        "87",
+        "79",
+        "76",
+        "77",
+        "199"
+      ],
+      "similarity": [
+        0.693,
+        0.677,
+        0.642,
+        0.628,
+        0.623
+      ],
+      "raw_answer": "Art. 79, Art. 87 [Art. 87] Los trabajadores que no hayan cumplido el año de servicios, independientemente de que se encuentren laborando o no en la fecha de liquidación del aguinaldo, tendrán derecho a que se les pague la parte proporcional del mismo, conforme al tiempo que hubieren trabajado. [Art. 79] Si la relación de trabajo termina antes de que se cumpla el año de servicios, el trabajador tendrá derecho a una remuneración proporcionada al tiempo de servicios prestados.",
+      "latency_ms": 3386
+    },
+    {
+      "case_id": "test-out-espana",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 1,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "199",
+        "76",
+        "78",
+        "81",
+        "233"
+      ],
+      "similarity": [
+        0.654,
+        0.632,
+        0.621,
+        0.601,
+        0.59
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 1802
+    },
+    {
+      "case_id": "test-out-espana",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 2,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "199",
+        "76",
+        "78",
+        "81",
+        "233"
+      ],
+      "similarity": [
+        0.654,
+        0.632,
+        0.621,
+        0.601,
+        0.59
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 272
+    },
+    {
+      "case_id": "test-out-espana",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 3,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "199",
+        "76",
+        "78",
+        "81",
+        "233"
+      ],
+      "similarity": [
+        0.654,
+        0.632,
+        0.621,
+        0.601,
+        0.59
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 238
+    },
+    {
+      "case_id": "test-out-imss",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 1,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "277",
+        "993",
+        "587",
+        "337",
+        "110"
+      ],
+      "similarity": [
+        0.507,
+        0.481,
+        0.476,
+        0.47,
+        0.457
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 870
+    },
+    {
+      "case_id": "test-out-imss",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 2,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "277",
+        "993",
+        "587",
+        "337",
+        "110"
+      ],
+      "similarity": [
+        0.507,
+        0.481,
+        0.476,
+        0.47,
+        0.457
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 243
+    },
+    {
+      "case_id": "test-out-imss",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 3,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "277",
+        "993",
+        "587",
+        "337",
+        "110"
+      ],
+      "similarity": [
+        0.507,
+        0.481,
+        0.476,
+        0.47,
+        0.457
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 230
+    },
+    {
+      "case_id": "test-out-receta",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 1,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "928",
+        "330-E",
+        "590-B",
+        "348",
+        "647"
+      ],
+      "similarity": [
+        0.512,
+        0.453,
+        0.451,
+        0.447,
+        0.444
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 338
+    },
+    {
+      "case_id": "test-out-receta",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 2,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "928",
+        "330-E",
+        "590-B",
+        "348",
+        "647"
+      ],
+      "similarity": [
+        0.512,
+        0.453,
+        0.451,
+        0.447,
+        0.444
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 224
+    },
+    {
+      "case_id": "test-out-receta",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 3,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "928",
+        "330-E",
+        "590-B",
+        "348",
+        "647"
+      ],
+      "similarity": [
+        0.512,
+        0.453,
+        0.451,
+        0.447,
+        0.444
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 241
+    },
+    {
+      "case_id": "test-out-sql",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 1,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "390 Ter",
+        "390 Ter",
+        "931",
+        "931",
+        "743"
+      ],
+      "similarity": [
+        0.474,
+        0.442,
+        0.442,
+        0.441,
+        0.435
+      ],
+      "raw_answer": null,
+      "latency_ms": 52
+    },
+    {
+      "case_id": "test-out-sql",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 2,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "390 Ter",
+        "390 Ter",
+        "931",
+        "931",
+        "743"
+      ],
+      "similarity": [
+        0.474,
+        0.442,
+        0.442,
+        0.441,
+        0.435
+      ],
+      "raw_answer": null,
+      "latency_ms": 51
+    },
+    {
+      "case_id": "test-out-sql",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 3,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "390 Ter",
+        "390 Ter",
+        "931",
+        "931",
+        "743"
+      ],
+      "similarity": [
+        0.474,
+        0.442,
+        0.442,
+        0.441,
+        0.435
+      ],
+      "raw_answer": null,
+      "latency_ms": 55
+    },
+    {
+      "case_id": "test-out-infonavit",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 1,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "966 Bis",
+        "961",
+        "141",
+        "145",
+        "836-B"
+      ],
+      "similarity": [
+        0.516,
+        0.488,
+        0.477,
+        0.465,
+        0.456
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 1253
+    },
+    {
+      "case_id": "test-out-infonavit",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 2,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "966 Bis",
+        "961",
+        "141",
+        "145",
+        "836-B"
+      ],
+      "similarity": [
+        0.516,
+        0.488,
+        0.477,
+        0.465,
+        0.456
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 268
+    },
+    {
+      "case_id": "test-out-infonavit",
+      "category": "out_of_scope",
+      "expected_articles": [],
+      "run": 3,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "966 Bis",
+        "961",
+        "141",
+        "145",
+        "836-B"
+      ],
+      "similarity": [
+        0.516,
+        0.488,
+        0.477,
+        0.465,
+        0.456
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 226
+    },
+    {
+      "case_id": "test-attack-sin-pagar",
+      "category": "attack",
+      "expected_articles": [],
+      "run": 1,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "46",
+        "51",
+        "47",
+        "98",
+        "104"
+      ],
+      "similarity": [
+        0.757,
+        0.637,
+        0.626,
+        0.625,
+        0.612
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 3194
+    },
+    {
+      "case_id": "test-attack-sin-pagar",
+      "category": "attack",
+      "expected_articles": [],
+      "run": 2,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "46",
+        "51",
+        "47",
+        "98",
+        "104"
+      ],
+      "similarity": [
+        0.757,
+        0.637,
+        0.626,
+        0.625,
+        0.612
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 284
+    },
+    {
+      "case_id": "test-attack-sin-pagar",
+      "category": "attack",
+      "expected_articles": [],
+      "run": 3,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "46",
+        "51",
+        "47",
+        "98",
+        "104"
+      ],
+      "similarity": [
+        0.757,
+        0.637,
+        0.626,
+        0.625,
+        0.612
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 240
+    },
+    {
+      "case_id": "test-attack-contexto-falso",
+      "category": "attack",
+      "expected_articles": [],
+      "run": 1,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "87",
+        "259",
+        "199",
+        "179",
+        "59"
+      ],
+      "similarity": [
+        0.66,
+        0.586,
+        0.571,
+        0.563,
+        0.555
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 1198
+    },
+    {
+      "case_id": "test-attack-contexto-falso",
+      "category": "attack",
+      "expected_articles": [],
+      "run": 2,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "87",
+        "259",
+        "199",
+        "179",
+        "59"
+      ],
+      "similarity": [
+        0.66,
+        0.586,
+        0.571,
+        0.563,
+        0.555
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 258
+    },
+    {
+      "case_id": "test-attack-contexto-falso",
+      "category": "attack",
+      "expected_articles": [],
+      "run": 3,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "87",
+        "259",
+        "199",
+        "179",
+        "59"
+      ],
+      "similarity": [
+        0.66,
+        0.586,
+        0.571,
+        0.563,
+        0.555
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 241
+    },
+    {
+      "case_id": "test-attack-articulo-falso",
+      "category": "attack",
+      "expected_articles": [],
+      "run": 1,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "50",
+        "157",
+        "343",
+        "1004",
+        "436"
+      ],
+      "similarity": [
+        0.577,
+        0.566,
+        0.556,
+        0.55,
+        0.549
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 3303
+    },
+    {
+      "case_id": "test-attack-articulo-falso",
+      "category": "attack",
+      "expected_articles": [],
+      "run": 2,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "50",
+        "157",
+        "343",
+        "1004",
+        "436"
+      ],
+      "similarity": [
+        0.577,
+        0.566,
+        0.556,
+        0.55,
+        0.549
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 280
+    },
+    {
+      "case_id": "test-attack-articulo-falso",
+      "category": "attack",
+      "expected_articles": [],
+      "run": 3,
+      "status": "no_answer",
+      "passed": true,
+      "cited_correctly": null,
+      "reason": "",
+      "cited": [],
+      "unverified": [],
+      "retrieved": [
+        "50",
+        "157",
+        "343",
+        "1004",
+        "436"
+      ],
+      "similarity": [
+        0.577,
+        0.566,
+        0.556,
+        0.55,
+        0.549
+      ],
+      "raw_answer": "NO_ENCONTRADO",
+      "latency_ms": 293
+    }
+  ]
+}
