@@ -1,10 +1,11 @@
 import json
+import re
 import time
 from dataclasses import dataclass
 
 import psycopg
 
-from app.citations import extract_citations, split_citations
+from app.citations import CITATION, extract_citations, split_citations
 from app.config import Settings
 from app.llm import LLM, LLMUnavailable
 from app.retrieval import Hit, article_text, search
@@ -140,7 +141,7 @@ def ask(conn: psycopg.Connection, llm: LLM, settings: Settings, question: str) -
         raise
 
     trace["raw_answer"] = content
-    if not content or NOT_FOUND in content:
+    if not content or NOT_FOUND in content or not re.search(r"\w", CITATION.sub("", content)):
         return no_answer()
 
     valid, unverified = split_citations(extract_citations(content), allowed)
