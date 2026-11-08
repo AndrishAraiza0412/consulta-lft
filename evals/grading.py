@@ -15,7 +15,7 @@ class Grade:
 
 
 def _normalize(text: str) -> str:
-    decomposed = unicodedata.normalize("NFKD", text.casefold())
+    decomposed = unicodedata.normalize("NFKD", " ".join(text.casefold().split()))
     return "".join(char for char in decomposed if not unicodedata.combining(char))
 
 

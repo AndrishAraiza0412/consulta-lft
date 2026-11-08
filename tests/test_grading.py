@@ -178,3 +178,8 @@ def test_held_out_run_refuses_a_dirty_tree():
     assert dirty_tree_error("test", " M app/ask.py\n")
     assert dirty_tree_error("test", "") is None
     assert dirty_tree_error("dev", " M app/ask.py\n") is None
+
+
+def test_facts_match_across_line_breaks_and_repeated_spaces():
+    case = direct(required_facts=[["media hora"]], expected_articles=["63"])
+    assert grade(case, response(answer="un descanso de media\nhora  [Art. 63]", cited=("63",))).passed
