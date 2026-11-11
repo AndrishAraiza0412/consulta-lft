@@ -37,7 +37,7 @@ def get_llm(settings: Annotated[Settings, Depends(get_settings)]) -> LLM:
 
 
 class Question(BaseModel):
-    question: Annotated[str, StringConstraints(strip_whitespace=True, min_length=1, max_length=500)]
+    question: Annotated[str, StringConstraints(strip_whitespace=True, min_length=1, max_length=500, pattern=r"^[^\x00]*$")]
 
 
 @app.post("/ask")

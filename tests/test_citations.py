@@ -19,6 +19,11 @@ from app.citations import extract_citations, split_citations
         ("[Articulo 87].", ["87"]),
         ("El artículo 87 dice", ["87"]),
         ("Son 15 días y 2 meses", []),
+        ("Según los artículos 76 y 999", ["76", "999"]),
+        ("[Arts. 76, 999]", ["76", "999"]),
+        ("[Art. 76 y 999]", ["76", "999"]),
+        ("[Arts. 76, 87 y 999]", ["76", "87", "999"]),
+        ("[Art. 153-A y 153-B]", ["153-A", "153-B"]),
     ],
 )
 def test_extract_citations(text, expected):

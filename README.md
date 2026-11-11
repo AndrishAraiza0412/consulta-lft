@@ -22,9 +22,9 @@ Held-out `test` split, run once on the frozen system: 20 cases, 3 runs each. The
 
 Model `qwen2.5:3b-instruct`, embeddings `bge-m3`, on an 8 GB Apple M2. Full reports: [`evals/results/`](evals/results/).
 
-**What it gets right.** Questions outside the law (World Cup, SQL, ISR tax rates, IMSS contributions) get "I don't know" every time, mostly without calling the model, because no article is similar enough. Injected instructions, fake context and requests to invent articles never produced the forbidden content.
+**What it gets right.** Questions outside the law (World Cup, SQL, ISR tax rates, IMSS contributions) got "I don't know" every time. 4 of the 10 out-of-scope cases were refused before the model was called, because no article was similar enough; in the other 6 (including ISR and IMSS) the model itself replied `NO_ENCONTRADO`. Injected instructions, fake context and requests to invent articles never produced the forbidden content.
 
-**What it gets wrong.** The dominant failure is being too cautious: in 3 of the 4 failed `test` cases the right article was ranked first, and the 3B model still replied `NO_ENCONTRADO` or only a bare citation. Other failures: citing a neighbouring article (60 instead of 61), and two multi-article questions whose second article was not retrieved (73/75, 26).
+**What it gets wrong.** The dominant failure is being too cautious: in all 4 failed `test` cases the expected article was ranked first, and the 3B model still replied `NO_ENCONTRADO` or only a bare citation. In `dev`, other failures were citing a neighbouring article (60 instead of 61), a two-article question answered wrongly although both articles were retrieved (76/80), and one where neither article was retrieved (73/75).
 
 **A limit of the citation check.** The code verifies that every cited article was in the model's context. It does not verify that the article supports the sentence. During tuning, the model copied a sentence from a prompt example and attached the question's article to it, and the check passed. That prompt was reverted; the gap remains.
 
@@ -85,7 +85,7 @@ Ollama stays on the host because inside Docker on a Mac it would have no GPU.
 ```bash
 docker compose up -d db
 uv sync
-uv run pytest                 # 107 tests; uses a real pgvector database and a fake LLM
+uv run pytest                 # 114 tests; uses a real pgvector database and a fake LLM
 uv run uvicorn app.main:app --port 8000
 cd web && npm ci && npm run dev && npx vitest run
 ```

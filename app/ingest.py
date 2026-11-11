@@ -24,7 +24,7 @@ def store_chunks(conn: psycopg.Connection, llm: LLM, chunks: list[Chunk], source
                 "values (%s, %s, %s, %s, %s::vector)",
                 [
                     (source_version, chunk.article, chunk.part, chunk.text, embedding)
-                    for chunk, embedding in zip(chunks, embeddings)
+                    for chunk, embedding in zip(chunks, embeddings, strict=True)
                 ],
             )
     conn.commit()

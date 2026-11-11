@@ -34,7 +34,7 @@ def seeded(conn):
     store_chunks(conn, FakeLLM([]), [Chunk("76", 0, "Doce días.")], "v1")
 
 
-@pytest.mark.parametrize("question", ["", "   ", "\n\t", "x" * 501])
+@pytest.mark.parametrize("question", ["", "   ", "\n\t", "x" * 501, "hola\x00"])
 def test_invalid_question_is_422(make_client, question):
     client = make_client(FakeLLM([]))
     assert client.post("/ask", json={"question": question}).status_code == 422
