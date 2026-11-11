@@ -111,7 +111,7 @@ from traces order by created_at desc limit 20;
 - **Not legal advice.** The UI says so on every page.
 - **Small model.** A larger model would likely reduce undue "I don't know" answers; that has not been measured here.
 - **Cost limits** are tested with configured prices only; no paid API was used.
-- **CI** ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) has not run yet; it runs on the first push.
+- **CI** ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) runs the backend tests and the web tests and build on every push; it passed on the first push. It does not run the evaluation, which needs a local model.
 - The Qwen 2.5 3B model is under the Qwen Research License; check it before any commercial use.
 
 ## AI usage
